@@ -67,7 +67,7 @@ header{
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(150,150,150,0.7);
 }
 
 /* Caption text */
@@ -109,9 +109,11 @@ header{
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-fill-mode: forwards;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes fade {
