@@ -28,6 +28,7 @@ img {
 header {
   background: #f4f4f4;
   padding-top: 5px;
+  padding-bottom: 20px;
   border-bottom: #000000 5px solid;
   margin-bottom: 30px;
 }
@@ -158,6 +159,8 @@ header {
 footer {
   background: #f4f4f4;
   border-top: 25px;
+  position: absolute;
+  width: 100%;
 }
 
 footer p {
